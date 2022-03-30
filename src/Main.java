@@ -7,6 +7,10 @@ public class Main {
         Car car2 = new BMW("X5", 120000);
 
         repairCar(serviceDeport1, car1, car2);
+
+        ServiceDeport serviceDeport2 = new ServiceDeport("Гараж №2");
+        serviceDeport2.repairCar(new Car[]{car1, car2});
+
     }
 
     public static void repairCar(ServiceDeport serviceDeport, Car... cars) {

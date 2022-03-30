@@ -27,4 +27,15 @@ public class ServiceDeport implements ServiceStations {
 
         }
     }
+
+    /*
+    @Override
+    public void repairCar(Audi car) {
+            if (car.getKm() > 100_000) {
+                System.out.println(car.getModel() + " отремонтирована");
+            } else {
+                System.out.println(car.getModel() + " не нуждается в ремонте");
+            }
+    }
+    */
 }
